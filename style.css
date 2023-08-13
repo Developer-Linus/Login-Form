@@ -1,0 +1,44 @@
+/*styling for the login container*/
+.login-container{
+position:absolute;/*Positioned absolutely*/
+top:50%;/*Positioned 50% from the top*/
+left:50%;/*Positioned 50% from the left*/
+transform: translate(-50%,-50%);/*Translated to center the container precisely*/
+width:300px;/*Width of the container.*/
+padding:20px;/*Padding inside the container*/
+background-color:#f2f2f2;/*Background color of the container*/
+border-radius:5px;/*Rounded corners of the container*/
+}
+/*Styling h2*/
+.login-container h2{
+	text-align: center;
+}
+/*Styling for the input fields*/
+.login-container input[type="text"],.login-container input[type="password"]{
+	width:100%;/*Width of the input fields.*/
+	padding: 8px 10px;/*padding inside input fields*/
+	margin-bottom:10px;/*Margin at the bottom of input fields.*/
+	border:1px solid #ccc;/*Border around the input fields*/
+	border-radius:3px;/*Rounded corners of the input fields.*/
+	box-sizing: border-box;/*Include padding and border in the element's total width and height*/
+}
+/*Styling for the submit button*/
+.login-container input[type="submit"]{
+	width:100%;/*Width of the submit button*/
+	padding:10px;/*padding inside the submit button*/
+	background-color:#4CAF50;/*Background color of the submit button*/
+	color:#fff;/*Text color of the submit button*/
+	border:none;/*No border around the submit button*/
+	border-radius:3px;/*Rounded corners for the submit button*/
+	cursor:pointer;/*Cursor style on hover*/
+}
+/*Styling for footer*/
+.footer{
+	text-align:center;/*Center align the text.*/
+	margin-top:20px;/*Add some space between form and footer*/
+}
+/*Styling for developer-name*/
+.developer-name{
+	font-weight:bold;/*Apply bold font weight.*/
+	color:#555;/*Set the color of the developer name.*/
+}
